@@ -38,7 +38,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: FlutterFlowTheme.of(context).accent1,
         body: const SafeArea(
           top: true,
           child: Column(

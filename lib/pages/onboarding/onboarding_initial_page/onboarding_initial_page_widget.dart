@@ -41,12 +41,18 @@ class _OnboardingInitialPageWidgetState
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-        body: const SafeArea(
-          top: true,
+        backgroundColor: FlutterFlowTheme.of(context).accent1,
+        body: Padding(
+          padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            children: [],
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Row(
+                mainAxisSize: MainAxisSize.max,
+                children: [],
+              ),
+            ].divide(const SizedBox(height: 50.0)),
           ),
         ),
       ),

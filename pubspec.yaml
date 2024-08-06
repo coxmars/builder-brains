@@ -27,6 +27,9 @@ dependencies:
     sdk: flutter
   auto_size_text: 3.0.0
   cached_network_image: 3.3.1
+  cloud_firestore: 4.17.3
+  cloud_firestore_platform_interface: 6.2.3
+  cloud_firestore_web: 3.12.3
   collection: 1.18.0
   firebase_auth: 4.19.5
   firebase_auth_platform_interface: 7.2.6
@@ -67,6 +70,7 @@ dependencies:
   sign_in_with_apple_platform_interface: 1.0.0
   sign_in_with_apple_web: 1.0.1
   sqflite: 2.2.6
+  stream_transform: 2.1.0
   timeago: 3.6.1
   url_launcher: 6.2.5
   url_launcher_android: 6.3.0
